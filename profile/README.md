@@ -9,6 +9,11 @@ We are a global company, delivering AI, cloud and data engineering across three 
 
 [2sdtechnologies.com](https://2sdtechnologies.com/?utm_source=github&utm_medium=readme&utm_campaign=org-profile)
 
+<img src="OpenAI_Select_Partner_Badge.png" alt="OpenAI Select Partner" width="180">
+
+2SD Technologies is an **OpenAI Select Partner**, part of the OpenAI Partner Network.
+[Learn more about the network ->](https://openai.com/business/partners/)
+
 ---
 
 ## yOGI Neural Grid
