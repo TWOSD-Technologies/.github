@@ -18,7 +18,7 @@ We are a global company, delivering AI, cloud and data engineering across three 
 
 ## yOGI Neural Grid
 
-yOGI is our platform: twenty-three interconnected AI applications sharing one substrate. Each app
+yOGI is our platform: nineteen interconnected AI applications sharing one substrate. Each app
 is independently deployable, but they read and write through a common semantic layer rather
 than point-to-point -- so the identity model, audit trail and policy layer are inherited rather
 than rebuilt for every adoption.
@@ -36,7 +36,7 @@ system.
 
 ---
 
-## yOGI Private Models
+## yOGI Neural Grid Private Models
 
 **AI for the places that cannot adopt ungoverned AI.**
 
@@ -52,9 +52,47 @@ in private cloud with no external dependencies, so data does not leave the envir
 Built for CISOs, heads of data governance, and regulated-industry CIOs -- the teams for whom
 "send it to a public API" was never an option.
 
+We also build the models themselves: adapted to one job by fine-tuning or distillation, tested
+against questions agreed with the people who will use it (including the ones it should refuse),
+and run air-gapped. [Modelling and Intelligence as a Service ->](https://2sdtechnologies.com/ai-as-a-service?utm_source=github&utm_medium=readme&utm_campaign=org-profile)
+
 ---
 
-## TAI
+## yOGI Neural Grid DocQA
+
+**Document Q&A that will not answer without a source.**
+
+Every answer carries a quote that has been checked, word by word, against the passage it cites --
+in code, after the model has replied. If a quote is not really there, the sentence does not
+count; if too little of the answer survives, it is withheld and the user is told why. Document,
+section and page come from our own index, never from anything the model wrote.
+
+It answers with a private, air-gapped model, and permissions are applied inside the search, so a
+passage someone is not cleared for never reaches the model.
+
+[How it works ->](https://2sdtechnologies.com/insights/private-document-qa-2026?utm_source=github&utm_medium=readme&utm_campaign=org-profile)
+
+---
+
+## yOGI Neural Grid Ally
+
+**Accessibility testing for the documents customers actually receive.**
+
+Statements, renewals and letters mostly live as AFP, PostScript and PCL print files rather than
+web pages. Ally reads them as they are and produces large print, a
+tagged accessible PDF, accessible HTML, narrated audio, braille and an early sign-language
+version from one content model. Then it re-measures what it produced -- the font sizes on the
+page, the contrast, every word accounted for, the PDF tagging -- and keeps the scorecard as
+evidence for an EAA, EN 301 549, Section 508 or WCAG 2.2 conformance file. It is evidence, not a
+certificate: a human accessibility review still belongs in the workflow.
+
+Private and air-gapped, inside your boundary.
+
+[How it works ->](https://2sdtechnologies.com/insights/document-accessibility-testing-2026?utm_source=github&utm_medium=readme&utm_campaign=org-profile)
+
+---
+
+## yOGI Neural Grid TAI
 
 **Test cases generated from the requirement, not transcribed from it.**
 
@@ -143,6 +181,9 @@ so the space is left empty rather than filled.
 
 We publish what we learn, including the parts that did not work.
 
+- [We stopped trusting our model's citations, so we check them in code](https://dev.to/2sdtechnologiesdotcom/we-stopped-trusting-our-models-citations-so-we-check-them-in-code-3j0a)
+- [A document assistant that won't answer without a source](https://2sdtechnologies.com/insights/private-document-qa-2026?utm_source=github&utm_medium=readme&utm_campaign=org-profile)
+- [Accessibility testing for the documents your customers actually receive](https://2sdtechnologies.com/insights/document-accessibility-testing-2026?utm_source=github&utm_medium=readme&utm_campaign=org-profile)
 - [How do you decide two buttons are the same button?](https://dev.to/2sdtechnologiesdotcom/how-do-you-decide-two-buttons-are-the-same-button-3ip7)
 - [Five test tools, five dashboards, and nobody can say what happened](https://dev.to/2sdtechnologiesdotcom/five-test-tools-five-dashboards-and-nobody-can-say-what-happened-140f)
 - [Your test environment is where the governance stops](https://dev.to/2sdtechnologiesdotcom/your-test-environment-is-where-the-governance-stops-4978)
